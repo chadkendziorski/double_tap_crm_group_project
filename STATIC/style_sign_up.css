@@ -1,0 +1,23 @@
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item{
+    display: flexbox;
+    width: 200px;
+    margin: 10px;
+}
+
+.flexbox-item-1{
+    width: 400px;
+}
+
+.flexbox-item-2{
+    width: 600px;
+}
+
+#woman_working{
+    width: 100%;
+    height: auto;
+}
