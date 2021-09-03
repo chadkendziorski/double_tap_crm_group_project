@@ -1,0 +1,61 @@
+#footercontainer {
+    background-color: rgb(8, 80, 248);
+    color: white;
+}
+
+#footerrow {
+    background-color: rgb(8, 80, 248);
+}
+
+#footercol {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#footercol > div {
+    margin: 15px;
+}
+
+#startbutton {
+    background-color: rgb(127, 209, 38);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-right: 6em;
+}
+
+#startbutton i{
+    align-self: center;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#chatbutton {
+    background-color: white;
+    color:rgb(8, 80, 248);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#chatbutton i{
+    margin-right: 10px;
+}
+
+#bottomrow {
+    background-color: rgb(8, 80, 248);
+}
+
+#bottomcol {
+    margin-bottom: 150px;
+}
+
+#bottomline {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr;
+}
+
