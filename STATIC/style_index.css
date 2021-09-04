@@ -1,0 +1,52 @@
+.grid-container-start {
+    text-align: center;
+}
+
+.flexbox-container-1 {
+    display: flex;
+    justify-content: center;
+
+
+    margin: 70px 50px;
+
+    border: solid lightgray 2px;
+    border-radius: 20px;
+
+    align-items: center;
+}
+
+.flexbox-item {
+    display: flexbox;
+    width: 80%;
+    margin: 10px;
+    height: 100px;
+}
+
+.flexbox-item-1 { 
+    height: 250px;
+    width: auto;
+    background-color: white;
+}
+
+.flexbox-item-2 {
+    padding: 70px 40px;
+    color: white;
+    height: 100%;
+    font-size: small;
+    line-height: 20px;
+
+    background-color: blue;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 10px;
+}
+
+#man_paying {
+    width: 100%;
+    
+
+}
