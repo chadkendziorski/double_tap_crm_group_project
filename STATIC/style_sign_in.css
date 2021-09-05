@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    color: whitesmoke;
+     
+}
+
+.container {
+    display: flex;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    object-fit: contain;
+    font-weight: bold;
+    padding: 70px 0 0 60px;
+    background-color: blue;
+    clip-path:ellipse(610px 1045px at 25% -34%);
+}
+
+.section-1 > h2 {
+    margin-left: 60px;
+}
+
+#second-header{
+    margin: 0px;
+}
+
+.sign-up-button {
+    padding-left: 160px;
+
+}
+
+.sign-up {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: whitesmoke;  
+    align-content: center;
+    background-color: blue;
+    padding: 4px 15px 2px 15px;
+    border: 2px solid whitesmoke;
+}
+
+.background-image > img{
+    
+}
+
+.section-2 {
+    display: flex;
+    width: 50%;
+    color: black;
+    justify-content: center;
+}
