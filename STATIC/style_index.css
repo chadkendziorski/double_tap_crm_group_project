@@ -1,4 +1,38 @@
+/* Elaine */
+.flexbox-container-5 {
+    display: flex; 
+    justify-content:center;
+    flex-direction: row;
+}
 
+.nav-bar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.flexbox-item-5 {
+    margin: 100px;
+}
+
+.flexbox-item-6 {
+    margin: 100px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.flexbox-item-5 p {
+    color: gray;
+}
 
 /* Claudia */
 /* START TO EXPLORE DOUBLE TAP */
@@ -7,12 +41,11 @@
 }
 
 .start {
-    border-top: solid lightgray 2px;
     margin: 0 250px 0 250px;
 }
 
 .start h1 {
-    margin: 100px 0 0 0
+    margin: 0 0 0 0
 }
 
 /* START EXPECTING PAYMENTS GRAPHIC */
