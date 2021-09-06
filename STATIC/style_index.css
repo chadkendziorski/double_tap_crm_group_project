@@ -1,6 +1,14 @@
+/* START TO EXPLORE DOUBLE TAP */
 .container-start {
     text-align: center;
 }
+
+.start {
+    border-top: solid black 1px;
+    border-width: 60%;
+}
+
+/* START EXPECTING PAYMENTS GRAPHIC */
 
 .flexbox-container-1 {
     display: flex;
@@ -35,7 +43,7 @@
     font-size: small;
     line-height: 20px;
 
-    background-color: blue;
+    background-color: rgb(9, 85, 248);
 }
 
 .btn-secondary {
@@ -47,6 +55,53 @@
 
 #man_paying {
     width: 100%;
-    
+}
 
+/* ROW OF IMAGES */
+#payments {
+    background-color: rgb(9, 85, 248);
+}
+
+#explore {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+.grid-item-explore {
+    border: solid lightgray 2px;
+    border-radius: 25px;
+    margin: 100px 150px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+
+#image-row1 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+}
+
+#image-row2 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#image-row3 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#image-row4 {
+    align-items: center;
+    margin: 50px;
+    padding-left: 11px;
 }
