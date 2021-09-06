@@ -1,0 +1,266 @@
+/* Elaine */
+.flexbox-container-5 {
+    display: flex; 
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.nav-bar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.flexbox-item-5 {
+    margin: 100px;
+}
+
+.flexbox-item-6 {
+    margin: 100px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.flexbox-item-5 p {
+    color: gray;
+}
+
+/* Claudia */
+/* START TO EXPLORE DOUBLE TAP */
+.container-start {
+    text-align: center;
+}
+
+.start {
+    margin: 0 250px 0 250px;
+}
+
+.start h1 {
+    margin: 0 0 0 0
+}
+
+/* START EXPECTING PAYMENTS GRAPHIC */
+
+.flexbox-container-1 {
+    display: flex;
+    justify-content: center;
+
+
+    margin: 70px 50px;
+
+    border: solid lightgray 2px;
+    border-radius: 20px;
+
+    align-items: center;
+}
+
+.flexbox-item {
+    display: flexbox;
+    width: 80%;
+    margin: 10px;
+    height: 100px;
+}
+
+.flexbox-item-1 { 
+    height: 250px;
+    width: auto;
+    background-color: white;
+}
+
+.flexbox-item-2 {
+    padding: 70px 40px;
+    color: white;
+    height: 100%;
+    font-size: small;
+    line-height: 20px;
+
+    background-color: rgb(9, 85, 248);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 10px;
+}
+
+#man_paying {
+    width: 100%;
+}
+
+/* ROW OF IMAGES */
+#payments {
+    background-color: rgb(9, 85, 248);
+}
+
+#explore {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 300px;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+.grid-item-explore {
+    border: solid lightgray 2px;
+    border-radius: 25px;
+    margin: 100px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+
+#image-row1 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+}
+
+#image-row2 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#image-row3 {
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#image-row4 {
+    align-items: center;
+    margin: 50px;
+    padding-left: 11px;
+}
+
+/* ANNIE */
+.business-needs {
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.grid-item {
+    margin: 100px;
+    padding: 20px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+
+#logobtn {
+    align-items: center;
+    font-size: x-small;
+    padding: 5px 40px;
+}
+
+
+#inner-image {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+
+}
+#inner-image2 {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+
+#inner-image3 {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+
+#inner-image4 {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-left: 11px;
+
+}
+footer {
+    
+    text-align: center;
+
+}
+
+.container-md {
+    background-color:  rgb(9, 85, 248);
+    text-align: center;
+    color: white;
+
+}
+
+h1 {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.started {
+    font-size: x-large;
+}
+
+#getstarted {
+    align-content: center;
+    margin-right: 100px;
+    color: white;
+    background-color: rgb(123, 230, 17);
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+#chatwithus {
+    align-content: center;
+    color: rgb(9, 85, 248);
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.last  {
+    background-color:rgb(9, 85, 248);
+    font-size: x-large;
+    padding: 80px;
+}
