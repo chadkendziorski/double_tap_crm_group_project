@@ -8,6 +8,10 @@
     margin: 0 250px 0 250px;
 }
 
+.start h1 {
+    margin: 100px 0 0 0
+}
+
 /* START EXPECTING PAYMENTS GRAPHIC */
 
 .flexbox-container-1 {
@@ -67,6 +71,7 @@
     grid-template-columns: auto auto auto auto;
     margin-left: 300px;
     margin-right: 250px;
+    justify-content: center;
 }
 
 .grid-item-explore {
