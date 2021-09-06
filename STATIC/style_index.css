@@ -1,3 +1,6 @@
+
+
+/* Claudia */
 /* START TO EXPLORE DOUBLE TAP */
 .container-start {
     text-align: center;
@@ -109,4 +112,121 @@
     align-items: center;
     margin: 50px;
     padding-left: 11px;
+}
+
+/* ANNIE */
+.business-needs {
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.grid-item {
+    margin: 100px;
+    padding: 20px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+
+#logobtn {
+    align-items: center;
+    font-size: x-small;
+    padding: 5px 40px;
+}
+
+
+#inner-image {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+
+}
+#inner-image2 {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+
+#inner-image3 {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+
+#inner-image4 {
+    position: relative;
+    position: absolute;
+    align-items: center;
+    margin: 50px;
+    padding-left: 11px;
+
+}
+footer {
+    
+    text-align: center;
+
+}
+
+.container-md {
+    background-color:  rgb(9, 85, 248);
+    text-align: center;
+    color: white;
+
+}
+
+h1 {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.started {
+    font-size: x-large;
+}
+
+#getstarted {
+    align-content: center;
+    margin-right: 100px;
+    color: white;
+    background-color: rgb(123, 230, 17);
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+#chatwithus {
+    align-content: center;
+    color: rgb(9, 85, 248);
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.last  {
+    background-color:rgb(9, 85, 248);
+    font-size: x-large;
+    padding: 80px;
 }
