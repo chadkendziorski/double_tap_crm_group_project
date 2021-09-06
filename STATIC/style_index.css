@@ -42,6 +42,7 @@ li {
 }
 
 .start {
+    border-top: solid lightgray;
     margin: 0 250px 0 250px;
 }
 
