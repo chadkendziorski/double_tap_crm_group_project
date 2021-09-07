@@ -14,9 +14,13 @@ body {
     padding: 0px;
     color: whitesmoke;
     background-color: blue;
-    /* Creates the curved blue section around the rocket and moon pic   */
-    clip-path:ellipse(610px 1045px at 39% -37%);
+    clip-path:ellipse(610px 1045px at 23% -40%);               /* Creates the curved blue section around the rocket and moon pic   */
 }
+
+.sign-up-header {
+    padding: 48px 44px 20px 44px;
+}
+
 .sign-up-button {
     font-size: 20px;
     font-weight: bold;
@@ -56,12 +60,28 @@ input:focus {
     box-shadow: blue;
     background-color: rgb(134, 187, 248);
 }
+
 /* Inserts little icon into the form field labeled username */
 input[id=username] {
     background-image: url("IMAGES/CRM-Main/Page-1.png");
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    padding-left: 40px; 
+    
+}
+
+/* Supposed to insert the little email icon into the form but not working */
+#email {
+    background-image: url("IMAGES/CRM-Main/emaillogo.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+/* Supposed to insert the little password icon into the form but not working*/
+#password {
+    background-image: url("IMAGES/CRM-Main/passwordlogo.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    
 }
     
 .sign-in-button {
@@ -75,6 +95,7 @@ input[id=username] {
     padding: 4px 40px 2px 45px;
     border: 2px solid blue;
 }
+
 /* Social Media Icons */
 .icons > a {
     border: 1px black solid;
