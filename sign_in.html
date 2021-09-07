@@ -1,31 +1,75 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="STATIC/style_sign_in.css">
     <title>Sign In</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="STATIC/style_sign_in.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="section-1">
-            <h2>Dont Have an Account Yet?</h2>
-            <h2 id="second-header">What are you waiting for? Let's Fix that now!</h2>
-            <div class="sign-up-button">
-                <button class="sign-up" href="#">Sign Up</button>
-            </div>
-            <div class="background-image">
+    <section class="text-center">
+        <div class="container-fluid d-sm-flex">
+            <div class="col-sm-6 section-1">
+                <div class="p-5">
+                    <h2>Dont Have an Account Yet?</h2>
+                    <h2>What are you waiting for? Let's Fix that now!</h2>
+                    <button type="button" class="btn btn-primary sign-up-button">Sign Up</button>
+                </div>
                 <img src="STATIC/IMAGES/CRM-Main/Group 15.png" alt="Moon & Rocket Pic" class="img-fluid">
             </div>
-        </div>
+            <div class="col-sm-6 align-self-center section-2">
+                <h1 class="sign-in-header">Sign-In</h1>
+                <form>
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="password"></label>
+                        <input type="text" id="password" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary sign-in-button">Sign In</button>
+                </form>
+                <br>
+                <p>Or Sign in with social platforms</p>
+                <br>
+                <div class="row justify-content-around icons">
 
-        <div class="section-2">
-            <h1>Sign In</h1>
+                    <a href="#" class="fbicon"><img src="STATIC/IMAGES/CRM-Main/Path 151.png" alt="Facebook Icon"
+                            id="facebookicon"></a>
+                    <a href="#" class="twticon"><img src="STATIC/IMAGES/CRM-Main/Path 152.png" alt="Twitter Icon"
+                            id="twittericon"></a>
+                    <a href="#" class="lnkdicon"><img src="STATIC/IMAGES/CRM-Main/googleicon.png" alt="Google Icon"
+                            id="googleicon"></a>
+                    <a href="#" class="googleicon"><img
+                            src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png" alt="LinkedIn Icon"
+                            id="linkedinicon" /></a>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+        </div>
+    </section>
+    ​
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>
